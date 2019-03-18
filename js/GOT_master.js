@@ -37,9 +37,8 @@
 		const offSet = 600;
 		let currentOffset = this.dataset.offset * offSet;
 
-		topBanners.style.right = currentOffset + "px";
-
-	};
+		TweenMax.top(topBanners, 0.7, { right: currentOffset });
+	}
 
 	sigils.forEach(sigil => sigil.addEventListener('click', animateBanners));
 
