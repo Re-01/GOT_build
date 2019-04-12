@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* ----- custom font ----- */
-@font-face {
+@font-face 
+{
     font-family: 'GOT_font';
     src: url('Game_of_Thrones.ttf') format('truetype');
     font-weight: normal;
@@ -10,25 +11,29 @@
 /* ----- end custom font ----- */
 
 /* ----- default styles ----- */
-body { background-image:url(../images/grungeBG.jpg);
+body 
+{ background-image:url(../images/grungeBG.jpg);
 	background-repeat:no-repeat; background-position:center center;
 	background-color:#000000; font-size:16px; }
 
-h1 {
+h1 
+{
 	font-family: 'GOT_font';
 	color:white;
 	margin-top:30px;
 	font-size:1.25em;
 }
 
-main {
+main 
+{
 	position:relative;
 	width:100%;
 	text-align:center;
 	top:30px;
 }
 
-#imageContainer {
+#imageContainer 
+{
 	width:600px;
 	height:360px;
 	background-color:grey;
@@ -36,7 +41,8 @@ main {
 	overflow:hidden;
 }
 
-#houseImages { 
+#houseImages 
+{ 
 	position:relative; 
 	width:4000px; 
 	/*transition: all .5s;*/ 
