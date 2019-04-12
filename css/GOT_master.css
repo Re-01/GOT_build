@@ -51,17 +51,17 @@ main
 
 #bottomNav { margin-top:30px; }
 
-#navList li {
+#navList li 
+{
 	display:inline;
 	list-style-type:none;
 	padding:0px 10px;
 	cursor:pointer;
 }
 
-/* ----- end default styles ----- */
 
-/* ----- image sprite ----- */
-.sigil-container {
+.sigil-container 
+{
 	width:51px;
 	height:54px;
 	display:inline-block;

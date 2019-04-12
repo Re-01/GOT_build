@@ -36,7 +36,6 @@
 		// this gives us a lowercase house name -> the second class on all of the shields ie stark, baratheon
 		
 
-		// flip this uppercase
 		let targetVid = targetHouse.charAt(0).toUpperCase() + targetHouse.slice(1);
 
 		video.src = `video/House-${targetVid}.mp4`;
